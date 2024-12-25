@@ -27,7 +27,7 @@ nav{
     }
 .name{
     color: #181818;
-    font-size: 45px;
+    font-size: 85px;
     font-weight: 800;
     }
 nav>ul{
@@ -48,12 +48,22 @@ nav a{
     background-color: antiquewhite;
 }
 .banner{
-    padding: 30px 20px 50px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat; 
+    background-position: right bottom;
+    justify-content: space-between;
+    
   
 }
 .banner .propic{
-     width: 200px;
-     height: 200px; 
+     width: 500px;      
+}
+.greetings{
+    font-size: 45px;
+    font-weight: 700;
+    color: #474747;
+    margin: 0;
 }
